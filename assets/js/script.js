@@ -66,7 +66,7 @@ window.onload = function() {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Atharv Pandey";
+            document.title = "Portfolio | Arun Pratap Khichi";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -166,18 +166,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
 });
 // <!-- tilt js effect ends -->
-
-
-// pre loader start
-// function loader() {
-//     document.querySelector('.loader-container').classList.add('fade-out');
-// }
-// function fadeOut() {
-//     setInterval(loader, 500);
-// }
-// window.onload = fadeOut;
-// pre loader end
-
+ 
 // disable developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
